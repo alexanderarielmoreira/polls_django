@@ -1,3 +1,8 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'polls/style.css' %}">
+
+<fieldset class="container">
+
 {% if latest_question_list %}
 
 <ul>
@@ -11,4 +16,6 @@
 <h1>No polls are available.</h1>
 
 {% endif %}
+
+</fieldset>
 

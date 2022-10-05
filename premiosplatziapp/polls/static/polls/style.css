@@ -1,0 +1,29 @@
+body{
+    background: white url("img/image1.webp") no-repeat; 
+    opacity: 0.8; 
+    background-position: center; 
+    background-size:cover; 
+}
+
+.container{
+    margin-top: 0.1px;
+    margin-left: 0.1px;
+    margin-right: 0.px;
+
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    padding-left: 23%;
+
+}
+
+li{
+    list-style: none;
+    display: block;
+    margin: 24px;
+}
+
+li a{
+    color: green;
+    font-size: 200%;
+    font-family:Arial;
+}
